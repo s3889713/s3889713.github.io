@@ -1,0 +1,27 @@
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    position: fixed;
+    top: 0;
+    width: 100%;       
+}
+
+.option {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.option .link {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #333;
+}
+
+.option .link:hover {
+    background-color: rgb(66, 66, 66);
+}
