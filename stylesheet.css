@@ -30,7 +30,10 @@
     background-color: rgb(66, 66, 66);
 }
 
-.header {
-    padding: 10px;
-    text-align: left;
+.grid-container {
+    display: grid;
+}
+
+.grid-cell {
+    display: inline-grid;
 }
