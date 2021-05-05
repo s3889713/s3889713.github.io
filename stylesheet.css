@@ -29,3 +29,8 @@
 .option .link:hover {
     background-color: rgb(66, 66, 66);
 }
+
+.header {
+    padding: 10px;
+    text-align: left;
+}
