@@ -32,8 +32,26 @@
 
 .grid-container {
     display: grid;
+    padding: 50px;
+    grid-template-areas: 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
-.grid-cell {
-    display: inline-grid;
+.gridLeft {
+    grid-area: left;
+}
+
+.gridMiddle {
+    grid-area: middle;
+}
+
+.gridRight {
+    grid-area: right;
+}
+
+.gridFooter {
+    grid-area: footer;
 }
