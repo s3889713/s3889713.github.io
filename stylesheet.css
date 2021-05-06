@@ -32,16 +32,17 @@
 
 .grid-container {
     display: grid;
-    padding: 50px;
     grid-template-areas: 
     'left middle middle middle middle right' 
     'footer footer footer footer footer footer';
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    padding-top: 50px;
 }
 
 .gridLeft {
     grid-area: left;
+    background-color: rgb(109, 109, 109);
 }
 
 .gridMiddle {
@@ -54,4 +55,21 @@
 
 .gridFooter {
     grid-area: footer;
+}
+
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    top: 0;
+}
+
+.sideOption .link {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #333;
 }
